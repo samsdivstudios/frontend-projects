@@ -15,8 +15,8 @@ Each project is either:
 - [ ] **Button UI playground**
 - [ ] **Simple responsive landing page**
 - [ ] **Cafe website (real-world brief)** ← coming soon
-- [ ] **JS calculator**
-- [ ] **To-do list app**
+- [ ] **Resume**
+- [ ] **Login Form**
 
 ---
 
@@ -27,5 +27,5 @@ Each project is either:
 ├── buttons-ui/
 ├── responsive-landing/
 ├── cafe-site/
-├── calculator/
-└── todo-app/
+├── resume/
+└── login-form/
