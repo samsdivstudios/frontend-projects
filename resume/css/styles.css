@@ -1,0 +1,162 @@
+
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif; /* Placeholder for now */
+  background-color: #351663;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  line-height: 1.352;
+}
+
+/* Header */
+header {
+  background-color: #120C52;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 300px; 
+  height: 220px;
+  margin: 0 auto;
+  border-radius: 8px; 
+  object-fit: cover;
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 0.5rem 0;
+}
+
+header h2 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #ccc;
+}
+
+address {
+  margin-top: 1rem;
+  font-style: normal;
+  color: #ccc;
+}
+
+address a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin-top: 0.2rem;
+}
+
+/* Main Content */
+main {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+section {
+  padding: 0;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.personal-statement {
+  text-align: center;
+}
+
+.personal-statement p {
+  text-align: center;
+}
+
+/* Headings */
+h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff44;
+  padding-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 18px;
+  margin: 1rem 0 0.5rem;
+}
+
+/* Lists */
+ul {
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: inline-flex;
+  margin: 1rem auto;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #120C52;
+}
+
+footer address {
+  margin-bottom: 1rem;
+  color: #ccc;
+}
+
+footer i {
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+/* Responsive Desktop Enhancements */
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 40px;
+  }
+
+  header h2 {
+    font-size: 22px;
+  }
+
+  main {
+    max-width: 900px;
+    padding: 2rem;
+  }
+
+  section {
+    padding: 2rem 0;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+}
