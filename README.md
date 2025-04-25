@@ -15,7 +15,7 @@ Each project is either:
 - [ ] **Button UI playground**
 - [ ] **Simple responsive landing page**
 - [ ] **Cafe website (real-world brief)** ← coming soon
-- [ ] **Resume**
+- [x] **Resume**
 - [ ] **Login Form**
 
 ---
