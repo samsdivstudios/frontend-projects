@@ -114,7 +114,7 @@ li {
 /* Images */
 img {
   max-width: 100%;
-  display: inline-flex;
+  display: flex;
   margin: 1rem auto;
 }
 
